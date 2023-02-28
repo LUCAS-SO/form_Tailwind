@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <title>Form</title>
+  </head>
+  <body>
+    <div class="min-height-full flex">
+      <div class="hidden lg:block relative h-full flex-1">
+        <img src="img/cielo-oscuro.jpg" class="height" alt="" />
+      </div>
+      <div
+        class="flex-1 flex flex-col justify-center py-12 px-4 sm:px-6 lg:flex-none lg:px-20 xl:px-24"
+      >
+        <div class="mx-auto w-full max-w-sm lg:max-w-lg lg:w-[100rem]">
+          <div class="text-center lg:text-left">
+            <img
+              src="img/anoka-isotipo.ico"
+              class="h-12 2-auto mx-auto lg:m-0"
+              alt=""
+            />
+            <h2 class="mt-6 text-3xl font-extrabold text-gray-900">
+              Crea tu cuenta aquí
+            </h2>
+            <p class="mt-2 text-sm text-gray-600">
+              Si ya tiene una cuenta
+              <a
+                href="#"
+                class="font-medium text-indigo-900 hover:text-indigo-600"
+                >Inicia sesión</a
+              >
+            </p>
+          </div>
+
+          <div class="mt-6">
+            <form action="" class="space-y-1">
+              <div class="grid grid-cols-1 lg:grid-cols-2 lg:gap-3">
+                <div>
+                  <label
+                    for="Nombre"
+                    class="block text-sm font-medium mt-2 lg:mt-0 text-gray-700"
+                    >Ingrese su nombre</label
+                  >
+                  <input
+                    type="text"
+                    class="mt-2 shadow appearance-none border rounded w-full py-2 px-3 text-indigo-800 leading-tight focus:outline-none focus:shadow-outline"
+                    placeholder="Nombre"
+                  />
+                </div>
+                <div>
+                  <label
+                    for="Apellido"
+                    class="block text-sm font-medium mt-2 lg:mt-0 text-gray-700"
+                    >Ingrese su apellido</label
+                  >
+                  <input
+                    type="text"
+                    class="mt-2 shadow appearance-none border rounded w-full py-2 px-3 text-indigo-800 leading-tight focus:outline-none focus:shadow-outline"
+                    placeholder="Apellido"
+                  />
+                </div>
+                <div>
+                  <label
+                    for="Email"
+                    class="block text-sm font-medium mt-2 lg:mt-0 text-gray-700"
+                    >Ingrese su Email</label
+                  >
+                  <input
+                    type="text"
+                    class="mt-2 shadow appearance-none border rounded w-full py-2 px-3 text-indigo-800 leading-tight focus:outline-none focus:shadow-outline"
+                    placeholder="Email"
+                  />
+                </div>
+                <div>
+                  <label
+                    for="Password"
+                    class="block text-sm font-medium mt-2 lg:mt-0 text-gray-700"
+                    >Ingrese su Contraseña</label
+                  >
+                  <input
+                    type="text"
+                    class="mt-2 shadow appearance-none border rounded w-full py-2 px-3 text-indigo-800 leading-tight focus:outline-none focus:shadow-outline"
+                    placeholder="Contraseña"
+                  />
+                </div>
+              </div>
+              <div>
+                <button
+                  type="submit"
+                  class="mt-4 w-full py-3 bg-indigo-700 text-white"
+                >
+                  Registrarse
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
